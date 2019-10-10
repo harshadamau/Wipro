@@ -1,0 +1,336 @@
+/*global css starts here */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'HankenGroteskRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*header css starts here */
+
+ /* .container{
+    width:960px!important;
+    position:relative;
+      margin:auto;
+}  */
+
+.navbar-brand{
+    margin-right: 150px;
+}
+
+.nav-link{
+    color:#303030!important;
+    margin-right:20px;
+}
+
+.input-search{
+    margin-left:900px!important;
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+
+.search-btn{
+    color: #fff;
+    background-color:#1641af;
+    padding:5px 40px;
+    border-radius: 30px;
+    border: none;
+}
+
+/*header css close here */
+
+/*jumbotron css starts here */
+
+h2{
+    color: #33475c;
+ }
+
+.text{
+    padding:30px;
+}
+
+.strong{
+    font-weight: 600;
+}
+
+p{
+    color:#555555;
+}
+
+.knowmore{
+    background: linear-gradient(#f66815,#fb9114);
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+}
+
+.jumbotron {
+    background-color: #1641af;
+    color:#fff;
+    margin-top:30px;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+    padding:20px;
+}
+
+.center p {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.bold {
+    font-weight:800;
+}
+
+.story {
+    background-color:#ffffff;
+}
+
+h4{
+    padding-right:118px;
+    padding-top:15px;
+    padding-bottom: 5px;
+    color:#33475c;
+    font-size: 16px;
+}
+
+.row p {
+    font-size:14px;
+}
+
+.btn {
+    border: 1px solid #7b7373;
+}
+
+.think {
+    background-color:#f5f7fa;
+}
+
+/*jumbotron css close here */
+
+/*container css starts here */
+
+.row1 {
+    margin-top: 20px;
+}
+
+.media p{
+  padding-right:70px;
+}
+
+.para {
+    margin-top: 20px;
+}
+
+.media{
+    display: inline;
+}
+
+.social{
+    margin-left: -80px;
+    margin-bottom: -35px;
+}
+
+.fab{
+   font-size:35px;
+}
+
+.web{
+    margin-bottom:60px!important;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.lastrow{
+    padding-left: 90px;
+}
+
+/*container css close here */
+
+/*footer css starts here */
+
+.footer{
+    background-color: #212a40;
+    margin-bottom: 0px;
+    padding-top:30px;
+}
+
+ul{
+    list-style: none;
+}
+
+.footernav a {
+    color: #9095a0;
+}
+
+li {
+    display: inline-block;
+}
+
+.footernavigation li a{
+    color: #9095a0;
+    margin-right: 12px;
+}
+
+.footer li{
+    margin-top: 20px;
+}
+
+.footernav{
+    margin-bottom: 20px;
+}
+
+.footernav li a::after { 
+    content: "|";
+    color: #9095a0;
+}
+
+.footernav li:last-child a::after { 
+    content: " ";
+}
+
+.footernav li a:hover { 
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-services {
+     height: 800px;
+     background: #212a40;
+     color: #fff;
+}
+
+.footer-services h4{
+     color:#ffff;
+}
+
+/*footer css close here */
+
+@media(min-width:320px) and (max-width:767px){
+    
+/*header css starts here */
+
+    /* .container{
+        width:490px!important;
+        position:relative;
+        margin:auto;
+    } */
+
+    .input-search{
+        display:none;
+    }
+
+    .img1{
+        width:80px;
+    }
+
+    .navbar{
+        margin-right:0px;
+    }
+
+    .navbar-brand{
+       margin-right: 0px;
+    }
+
+    .navbar-toggler{
+        font-size:10px;
+    }
+
+    /*jumbotron css starts here */
+  
+    .text{
+        text-align: center;
+        padding: 20px;
+    }
+
+   .jumbotron{
+      margin-bottom:0;
+   }
+
+    .center{
+        padding:15px;
+    }
+
+    h4{
+        padding-right:8px;
+    }
+
+    .img{
+        padding-left:20px;
+    }
+
+    .para{
+        text-align: center;
+    }
+
+    .para p{
+        padding-right: 10px; 
+    }
+
+    .img2{
+        padding-right: 30px;
+    }
+ 
+    .think1{
+        padding-left: 0px;
+    }
+
+    .btn{
+        margin-bottom: 20px!important;
+    }
+
+    /*container css starts here */
+
+
+    .web{
+        margin-top:30px;
+        margin-bottom: 20px!important;
+    }
+
+    .social{
+        margin-left: -60px;
+    }
+
+    .lastrow{
+        padding-left: 80px;
+    }
+
+    .media p{
+        padding-right:30px;
+      }
+      
+    /*footer css start here */
+
+    .footer{
+        padding-bottom: 525px;
+        font-size:14px;
+    }
+
+    .footer-services {
+        margin-top: -10px;
+    }
+    
+    .footer-services .services h4{
+        padding-top: 0px;
+        padding-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .footer li{
+        margin-top: 5px;
+    }
+}
